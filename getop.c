@@ -2,7 +2,7 @@
 #include "stdio.h"
 #include <ctype.h>
 
-int getop(char *s) {
+int getop(char s[]) {
     int i, c;
     while ((s[0] = c = getch()) == ' ' || c == '\t');
     s[1] = '\0';
