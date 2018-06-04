@@ -1,6 +1,8 @@
 #ifndef POLSK_CALC_CALC_H
 #define POLSK_CALC_CALC_H
 #define NUMBER '0'
+#define NUMBER '0'
+#define BUFFSIZE 100
 
 void push(double);
 
